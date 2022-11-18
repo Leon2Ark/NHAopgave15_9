@@ -1,0 +1,90 @@
+/* Display resolution of 1366 * 768 */
+
+header {
+    text-align: center;
+        }
+footer {
+  text-align: center;
+        }
+body {
+  background-color: #e9e3e2
+      }
+/* Horizontal NAV menu */
+ul a{
+      color: white;
+      text-decoration: none;
+    }
+li {
+  display: inline-block;
+  width: 150px;
+  height: 22px;
+  padding: 10px;
+  /* margin right to cover the x,y offset of the list. Probably a much better method exists */
+  margin-right: 30px;
+  text-align: center;
+  color: white;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+  background-color: lightblue;
+    }
+li:hover {
+  background-color: lightgreen;
+  border-style: none;
+          }
+/* Styling and centering the image and paragraph of index.html */
+.inhoud {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 242px;
+  height:auto;
+  padding: 20px;
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+  text-align: center;
+  color: #123131;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  background-color: #33ffff;
+}
+/* styling and centering the table of mijncv.html */
+table, th, td {
+  border: 5px solid white;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding:15px;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  background-color: #33ffff;
+              }
+/* styling and centering the input form of contact.html */
+input[type="text"], input[type="email"], textarea, select, button {
+  display: block;
+  margin: 15px 15px;
+  padding: 5px;
+  color: black;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  border: 5px solid white;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px lightgreen;
+  background-color: #33ffff;
+          }
+textarea {
+  height: 300px;
+  padding: 5px 4px;
+          }
+button:active {
+  background-color: darkgreen;
+  color: white;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px blue;
+              }
